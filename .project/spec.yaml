@@ -26,7 +26,7 @@ environment:
     name: TGI
     supported_architectures:
     - amd64
-    cuda_version: "12.6"
+    cuda_version: "11.8"
     description: The huggingface text-generation-interface base container
     entrypoint_script: ""
     labels:
